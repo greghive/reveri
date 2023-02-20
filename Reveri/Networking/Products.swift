@@ -21,7 +21,7 @@ enum Products {
 
     struct Product: Codable {
         let id: Int
-        let title: Int
+        let title: String
         let description: String
         let price: Int
         let discountPercentage: Double
