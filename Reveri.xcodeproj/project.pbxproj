@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3B5565529A3A9A3003E375D /* ReveriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5565429A3A9A3003E375D /* ReveriApp.swift */; };
+		F3B5565929A3A9A4003E375D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B5565829A3A9A4003E375D /* Assets.xcassets */; };
+		F3B5565C29A3A9A4003E375D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B5565B29A3A9A4003E375D /* Preview Assets.xcassets */; };
+		F3B5566629A3A9A5003E375D /* ReveriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5566529A3A9A5003E375D /* ReveriTests.swift */; };
+		F3B5568129A3AA0C003E375D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5567F29A3AA0C003E375D /* API.swift */; };
+		F3B5568229A3AA0C003E375D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5568029A3AA0C003E375D /* Request.swift */; };
+		F3B5568929A3AA75003E375D /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5568829A3AA75003E375D /* TabsView.swift */; };
+		F3B5568B29A3AA83003E375D /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5568A29A3AA83003E375D /* ProductsView.swift */; };
+		F3B5568D29A3AA91003E375D /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5568C29A3AA91003E375D /* CartView.swift */; };
+		F3B5568F29A3AAF3003E375D /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5568E29A3AAF3003E375D /* Products.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3B5566229A3A9A4003E375D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B5564929A3A9A3003E375D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B5565029A3A9A3003E375D;
+			remoteInfo = Reveri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3B5565129A3A9A3003E375D /* Reveri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reveri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B5565429A3A9A3003E375D /* ReveriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReveriApp.swift; sourceTree = "<group>"; };
+		F3B5565829A3A9A4003E375D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3B5565B29A3A9A4003E375D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3B5566129A3A9A4003E375D /* ReveriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReveriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B5566529A3A9A5003E375D /* ReveriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReveriTests.swift; sourceTree = "<group>"; };
+		F3B5567F29A3AA0C003E375D /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		F3B5568029A3AA0C003E375D /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		F3B5568829A3AA75003E375D /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		F3B5568A29A3AA83003E375D /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		F3B5568C29A3AA91003E375D /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		F3B5568E29A3AAF3003E375D /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B5564E29A3A9A3003E375D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B5565E29A3A9A4003E375D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B5564829A3A9A3003E375D = {
+			isa = PBXGroup;
+			children = (
+				F3B5565329A3A9A3003E375D /* Reveri */,
+				F3B5566429A3A9A5003E375D /* ReveriTests */,
+				F3B5565229A3A9A3003E375D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B5565229A3A9A3003E375D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5565129A3A9A3003E375D /* Reveri.app */,
+				F3B5566129A3A9A4003E375D /* ReveriTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B5565329A3A9A3003E375D /* Reveri */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5568329A3AA17003E375D /* App */,
+				F3B5567E29A3A9C0003E375D /* Networking */,
+				F3B5568429A3AA27003E375D /* Features */,
+				F3B5569029A3AE9D003E375D /* Resources */,
+				F3B5565A29A3A9A4003E375D /* Preview Content */,
+			);
+			path = Reveri;
+			sourceTree = "<group>";
+		};
+		F3B5565A29A3A9A4003E375D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5565B29A3A9A4003E375D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3B5566429A3A9A5003E375D /* ReveriTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5566529A3A9A5003E375D /* ReveriTests.swift */,
+			);
+			path = ReveriTests;
+			sourceTree = "<group>";
+		};
+		F3B5567E29A3A9C0003E375D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5567F29A3AA0C003E375D /* API.swift */,
+				F3B5568029A3AA0C003E375D /* Request.swift */,
+				F3B5568E29A3AAF3003E375D /* Products.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F3B5568329A3AA17003E375D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5565429A3A9A3003E375D /* ReveriApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F3B5568429A3AA27003E375D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5568729A3AA4F003E375D /* Tabs */,
+				F3B5568529A3AA30003E375D /* Products */,
+				F3B5568629A3AA3A003E375D /* Cart */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F3B5568529A3AA30003E375D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5568A29A3AA83003E375D /* ProductsView.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		F3B5568629A3AA3A003E375D /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5568C29A3AA91003E375D /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		F3B5568729A3AA4F003E375D /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5568829A3AA75003E375D /* TabsView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		F3B5569029A3AE9D003E375D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5565829A3A9A4003E375D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B5565029A3A9A3003E375D /* Reveri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B5567529A3A9A5003E375D /* Build configuration list for PBXNativeTarget "Reveri" */;
+			buildPhases = (
+				F3B5564D29A3A9A3003E375D /* Sources */,
+				F3B5564E29A3A9A3003E375D /* Frameworks */,
+				F3B5564F29A3A9A3003E375D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reveri;
+			productName = Reveri;
+			productReference = F3B5565129A3A9A3003E375D /* Reveri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3B5566029A3A9A4003E375D /* ReveriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B5567829A3A9A5003E375D /* Build configuration list for PBXNativeTarget "ReveriTests" */;
+			buildPhases = (
+				F3B5565D29A3A9A4003E375D /* Sources */,
+				F3B5565E29A3A9A4003E375D /* Frameworks */,
+				F3B5565F29A3A9A4003E375D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B5566329A3A9A4003E375D /* PBXTargetDependency */,
+			);
+			name = ReveriTests;
+			productName = ReveriTests;
+			productReference = F3B5566129A3A9A4003E375D /* ReveriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B5564929A3A9A3003E375D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F3B5565029A3A9A3003E375D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F3B5566029A3A9A4003E375D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F3B5565029A3A9A3003E375D;
+					};
+				};
+			};
+			buildConfigurationList = F3B5564C29A3A9A3003E375D /* Build configuration list for PBXProject "Reveri" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B5564829A3A9A3003E375D;
+			productRefGroup = F3B5565229A3A9A3003E375D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B5565029A3A9A3003E375D /* Reveri */,
+				F3B5566029A3A9A4003E375D /* ReveriTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B5564F29A3A9A3003E375D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B5565C29A3A9A4003E375D /* Preview Assets.xcassets in Resources */,
+				F3B5565929A3A9A4003E375D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B5565F29A3A9A4003E375D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B5564D29A3A9A3003E375D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B5568D29A3AA91003E375D /* CartView.swift in Sources */,
+				F3B5568229A3AA0C003E375D /* Request.swift in Sources */,
+				F3B5568B29A3AA83003E375D /* ProductsView.swift in Sources */,
+				F3B5568129A3AA0C003E375D /* API.swift in Sources */,
+				F3B5565529A3A9A3003E375D /* ReveriApp.swift in Sources */,
+				F3B5568929A3AA75003E375D /* TabsView.swift in Sources */,
+				F3B5568F29A3AAF3003E375D /* Products.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B5565D29A3A9A4003E375D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B5566629A3A9A5003E375D /* ReveriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3B5566329A3A9A4003E375D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B5565029A3A9A3003E375D /* Reveri */;
+			targetProxy = F3B5566229A3A9A4003E375D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3B5567329A3A9A5003E375D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3B5567429A3A9A5003E375D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B5567629A3A9A5003E375D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Reveri/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madebyhive.Reveri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3B5567729A3A9A5003E375D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Reveri/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madebyhive.Reveri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3B5567929A3A9A5003E375D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madebyhive.ReveriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reveri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Reveri";
+			};
+			name = Debug;
+		};
+		F3B5567A29A3A9A5003E375D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madebyhive.ReveriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reveri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Reveri";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B5564C29A3A9A3003E375D /* Build configuration list for PBXProject "Reveri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B5567329A3A9A5003E375D /* Debug */,
+				F3B5567429A3A9A5003E375D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B5567529A3A9A5003E375D /* Build configuration list for PBXNativeTarget "Reveri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B5567629A3A9A5003E375D /* Debug */,
+				F3B5567729A3A9A5003E375D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B5567829A3A9A5003E375D /* Build configuration list for PBXNativeTarget "ReveriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B5567929A3A9A5003E375D /* Debug */,
+				F3B5567A29A3A9A5003E375D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B5564929A3A9A3003E375D /* Project object */;
+}
