@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F364764B29A4D7830017D698 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F364764A29A4D7830017D698 /* CartCell.swift */; };
+		F364764D29A4EF6B0017D698 /* StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F364764C29A4EF6B0017D698 /* StoreTests.swift */; };
 		F3B5565529A3A9A3003E375D /* ReveriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5565429A3A9A3003E375D /* ReveriApp.swift */; };
 		F3B5565929A3A9A4003E375D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B5565829A3A9A4003E375D /* Assets.xcassets */; };
 		F3B5565C29A3A9A4003E375D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B5565B29A3A9A4003E375D /* Preview Assets.xcassets */; };
-		F3B5566629A3A9A5003E375D /* ReveriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5566529A3A9A5003E375D /* ReveriTests.swift */; };
 		F3B5568129A3AA0C003E375D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5567F29A3AA0C003E375D /* API.swift */; };
 		F3B5568229A3AA0C003E375D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5568029A3AA0C003E375D /* Request.swift */; };
 		F3B5568929A3AA75003E375D /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5568829A3AA75003E375D /* TabsView.swift */; };
@@ -41,12 +41,12 @@
 
 /* Begin PBXFileReference section */
 		F364764A29A4D7830017D698 /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		F364764C29A4EF6B0017D698 /* StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTests.swift; sourceTree = "<group>"; };
 		F3B5565129A3A9A3003E375D /* Reveri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reveri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B5565429A3A9A3003E375D /* ReveriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReveriApp.swift; sourceTree = "<group>"; };
 		F3B5565829A3A9A4003E375D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3B5565B29A3A9A4003E375D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3B5566129A3A9A4003E375D /* ReveriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReveriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3B5566529A3A9A5003E375D /* ReveriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReveriTests.swift; sourceTree = "<group>"; };
 		F3B5567F29A3AA0C003E375D /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		F3B5568029A3AA0C003E375D /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		F3B5568829A3AA75003E375D /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		F3B5566429A3A9A5003E375D /* ReveriTests */ = {
 			isa = PBXGroup;
 			children = (
-				F3B5566529A3A9A5003E375D /* ReveriTests.swift */,
+				F364764C29A4EF6B0017D698 /* StoreTests.swift */,
 			);
 			path = ReveriTests;
 			sourceTree = "<group>";
@@ -338,7 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B5566629A3A9A5003E375D /* ReveriTests.swift in Sources */,
+				F364764D29A4EF6B0017D698 /* StoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

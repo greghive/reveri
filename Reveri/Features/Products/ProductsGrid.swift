@@ -3,9 +3,9 @@
 import SwiftUI
 
 struct ProductsGrid: View {
-    let products: [Products.Product]
+    let products: [Product]
     let numColumns: Int
-    var selection: (Products.Product) -> Void
+    var selection: (Product) -> Void
     
     var body: some View {
         let spacing: CGFloat = 10

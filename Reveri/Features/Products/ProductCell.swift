@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct ProductCell: View {
-    let product: Products.Product
+    let product: Product
     
     var body: some View {
         ProductImage(url: URL(string: product.thumbnail))

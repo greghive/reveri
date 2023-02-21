@@ -2,7 +2,7 @@
 import SwiftUI
 
 struct CartCell: View {
-    let product: Products.Product
+    let product: Product
     
     var body: some View {
         HStack(spacing: 12) {

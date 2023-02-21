@@ -7,7 +7,7 @@ struct CartView: View {
     var body: some View {
         NavigationStack {
             content
-            .navigationTitle("Cart")
+                .navigationTitle("Cart \(store.cartTotal)")
         }
     }
     

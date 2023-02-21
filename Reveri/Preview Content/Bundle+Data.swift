@@ -1,4 +1,6 @@
 
+// NOTE: reused code from existing project ⏱
+
 import Foundation
 
 extension Bundle {

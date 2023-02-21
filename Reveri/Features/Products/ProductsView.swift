@@ -3,7 +3,7 @@ import SwiftUI
 
 struct ProductsView: View {
     @State private var appeared = false
-    @State private var selectedProduct: Products.Product?
+    @State private var selectedProduct: Product?
     @ObservedObject var store: Store
         
     var body: some View {
@@ -22,7 +22,7 @@ struct ProductsView: View {
                 }
             }
             .sheet(item: $selectedProduct) {
-                ProductView(product: $0)
+                ProductView(product: $0, store: store)
             }
         }
     }

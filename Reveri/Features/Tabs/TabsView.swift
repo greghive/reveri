@@ -18,7 +18,7 @@ struct TabsView: View {
                 .tag(Tab.products)
             
             CartView(store: store)
-                .tabItem { Label("Cart", systemImage: "cart.circle.fill") }
+                .tabItem { Label("Cart \(store.cartTotal)", systemImage: "cart.circle.fill") }
                 .tag(Tab.cart)
                 .badge(store.cart.count)
         }

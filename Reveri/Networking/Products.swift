@@ -18,19 +18,25 @@ enum Products {
         let skip: Int
         let limit: Int
     }
+}
 
-    struct Product: Codable, Equatable, Identifiable, Hashable {
-        let id: Int
-        let title: String
-        let description: String
-        let price: Int
-        let discountPercentage: Double
-        let rating: Double
-        let stock: Int
-        let brand: String
-        let category: String
-        let thumbnail: String
-        let images: [String]
+struct Product: Codable, Equatable, Identifiable, Hashable {
+    let id: Int
+    let title: String
+    let description: String
+    let price: Int
+    let discountPercentage: Double
+    let rating: Double
+    var stock: Int
+    let brand: String
+    let category: String
+    let thumbnail: String
+    let images: [String]
+}
+
+extension Product {
+    var inStock: Bool {
+        stock > 0
     }
 }
 
@@ -62,7 +68,7 @@ extension API {
     }
 }
 
-func productsPublisher() -> AnyPublisher<[Products.Product], Error> {
+func productsPublisher() -> AnyPublisher<[Product], Error> {
     Products.api.call(.products())
         .map(\Products.Response.products)
         .eraseToAnyPublisher()

@@ -7,3 +7,11 @@ extension Store  {
         return store
     }
 }
+
+extension Product {
+    static var outOfStock: Product {
+        var product = Products.stub.products[0]
+        product.stock = 0
+        return product
+    }
+}
