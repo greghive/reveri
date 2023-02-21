@@ -2,13 +2,31 @@
 import SwiftUI
 
 struct CartView: View {
+    @ObservedObject var store: Store
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            content
+            .navigationTitle("Cart")
+        }
+    }
+    
+    @ViewBuilder private var content: some View {
+        if store.cart.count > 0 {
+            List(store.cart) {
+                CartCell(product: $0)
+            }
+        } else {
+            Text("Your cart is empty")
+                .multilineTextAlignment(.center)
+                .foregroundColor(.gray)
+                .padding()
+        }
     }
 }
 
 struct CartView_Previews: PreviewProvider {
     static var previews: some View {
-        CartView()
+        CartView(store: .preview)
     }
 }

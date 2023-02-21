@@ -1,10 +1,10 @@
 
 import Foundation
+import Combine
 
 enum Products {
-    static let scheme = "https"
-    static let host = "dummyjson.com"
-    static let path = "products"
+
+    static let api = API(session: .shared)
     
     static let decoder: JSONDecoder = {
         let decoder = JSONDecoder()
@@ -19,7 +19,7 @@ enum Products {
         let limit: Int
     }
 
-    struct Product: Codable {
+    struct Product: Codable, Equatable, Identifiable {
         let id: Int
         let title: String
         let description: String
@@ -38,7 +38,7 @@ extension Request {
     static func products(skip: Int = 0, limit: Int = 30) -> Request {
         Request(
             method: .get,
-            path: Products.path,
+            path: "/products",
             queries: ["skip": "\(skip)", "limit": "\(limit)"]
         )
     }
@@ -46,12 +46,24 @@ extension Request {
 
 fileprivate extension Request {
     init(method: RequestMethod, path: String, queries: [String: String]) {
-        self.scheme = Products.scheme
-        self.host = Products.host
+        self.scheme = "https"
+        self.host = "dummyjson.com"
         self.headers = nil
         self.method = method
         self.path = path
         self.queries = queries
         self.body = nil
     }
+}
+
+extension API {
+    func call<T: Decodable>(_ request: Request) -> AnyPublisher<T, Error> {
+        send(request: request, decoder: Products.decoder)
+    }
+}
+
+func productsPublisher() -> AnyPublisher<[Products.Product], Error> {
+    Products.api.call(.products())
+        .map(\Products.Response.products)
+        .eraseToAnyPublisher()
 }
