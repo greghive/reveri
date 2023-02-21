@@ -5,7 +5,24 @@ struct CartCell: View {
     let product: Products.Product
     
     var body: some View {
-        Text(product.title)
+        HStack(spacing: 12) {
+            ProductImage(url: URL(string: product.thumbnail))
+                .background(.white)
+                .frame(width: 60, height: 60)
+                .aspectRatio(1, contentMode: .fit)
+                .clipShape(RoundedRectangle(cornerRadius: 12))
+            
+            VStack(alignment: .leading) {
+                Text(product.title)
+                    .bold()
+                
+                Text(product.description)
+                    .font(.caption)
+                    .lineLimit(1)
+            }
+            
+            Spacer()
+        }
     }
 }
 

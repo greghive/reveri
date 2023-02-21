@@ -13,8 +13,13 @@ struct CartView: View {
     
     @ViewBuilder private var content: some View {
         if store.cart.count > 0 {
-            List(store.cart) {
-                CartCell(product: $0)
+            List {
+                ForEach(store.cart) {
+                    CartCell(product: $0)
+                }
+                .onDelete { 
+                    store.cart.remove(atOffsets: $0)
+                }
             }
         } else {
             Text("Your cart is empty")
