@@ -19,7 +19,7 @@ enum Products {
         let limit: Int
     }
 
-    struct Product: Codable, Equatable, Identifiable {
+    struct Product: Codable, Equatable, Identifiable, Hashable {
         let id: Int
         let title: String
         let description: String
